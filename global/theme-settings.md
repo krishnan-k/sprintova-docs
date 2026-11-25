@@ -112,7 +112,9 @@ The store palette is Background `#FFFFFF`, Foreground `#000000`, Color 1 `#33333
 | ------- | ----------- |
 | Page transition | Enables or disables page transition. |
 | Product card to product page transition | Enables or disables product card to product page transition. |
+| Image zoom-out on load | Enables or disables the zoom-out effect. Section background images, product card images, and collection card images start slightly zoomed in and ease out when they load and scroll into view. |
 | Add to cart | Enables or disables the add-to-cart animation. |
+| Heading animation | Enables or disables heading animation. Headings animate in line by line (rise and fade) as they scroll into view. |
 | Card hover effect | Sets the card hover effect. Choose from None, Lift, Scale, or Zoom. Applies to product and collection cards. |
 
 ## Badges
@@ -170,6 +172,9 @@ The store palette is Background `#FFFFFF`, Foreground `#000000`, Color 1 `#33333
 | Product title case | Sets the product title case. Choose from Default or Uppercase. |
 | Price font | Sets the price font. Choose from Body, Subheading, Heading, or Accent. |
 | "Add to cart" auto-opens drawer | Enables or disables "Add to cart" auto-opens drawer. |
+| Free shipping progress bar |  |
+| Show free shipping progress bar | Shows a progress bar at the top of the cart drawer that tells shoppers how much more they need to spend to get free shipping. Available when Type is Drawer. |
+| Free shipping minimum | Sets the order value, in the currency shown to customers, needed for free shipping. Only items that require shipping are counted. Available when Type is Drawer and the progress bar is on. |
 | Cart features |  |
 | Allow note to seller | Turn on to allow note to seller. |
 | Open note to seller by default | Turn on to open note to seller by default. |
@@ -182,6 +187,10 @@ The store palette is Background `#FFFFFF`, Foreground `#000000`, Color 1 `#33333
 | Border thickness | Sets the border thickness. Range: 0–10 px. |
 | Border opacity | Sets the border opacity. Range: 0–100%. |
 | Corner radius | Sets the corner radius for product media. Range: 0–100 px. |
+
+{% hint style="info" %}
+The bar updates on every cart change. Once the minimum is reached it switches to a "free shipping unlocked" message with a short celebration. It is hidden when the cart is empty, when the minimum is 0, or when the cart has no items that need shipping. This bar is only a visual guide: set the actual free shipping rate in Shopify Admin → Settings → Shipping and delivery.
+{% endhint %}
 
 ## Drawers
 
@@ -252,13 +261,34 @@ The store palette is Background `#FFFFFF`, Foreground `#000000`, Color 1 `#33333
 
 | Setting | Description |
 | ------- | ----------- |
-| Quick add | Enables or disables quick add. |
-| Mobile quick add | Enables or disables mobile quick add. |
-| Background | Sets the background color. |
-| Text | Sets the text color. |
+| Add to cart | Shows or hides the Add to cart button on product cards. Products with a single variant show it on desktop and mobile. Products with several variants show an add icon on mobile only (it adds the selected or first available variant) and keep the Choose options button on desktop. This setting works independently of Quick view. |
+| Quick view | Enables or disables quick view on product cards. |
+| Mobile quick add | Enables or disables mobile quick add. Available when Quick view is on. |
+| Background | Sets the quick view background color. Available when Quick view is on. |
+| Text | Sets the quick view text color. Available when Quick view is on. |
 | Media |  |
 | Show second image on hover | Turn on to show second image on hover. |
 | Show carousel | Turn on to show carousel. |
+| Slide images on hover | On desktop, the product card slides to the next image and shows pagination dots when hovered. Replaces Show second image on hover. |
+| Button arrow |  |
+| Show arrow icon on buttons | Adds a small arrow to theme buttons and "View all" links, including the Product tab carousel. |
+
+## Collection
+
+![Collection settings](../images/collection-settings.png)
+
+
+| Setting | Description |
+| ------- | ----------- |
+| Collection title color | Sets the collection title color. Works only when the collection has a background image metafield. Otherwise the default collection color is used. |
+| Collection description color | Sets the collection description color. Works only when the collection has a background image metafield. |
+| Collection font size | Sets the collection title font size. Range: 20–80 px. |
+| Collection banner height | Sets the collection banner height. Choose from Auto, Small, Medium, or Large. Works only when the collection has a background image metafield. |
+| Collection banner corner radius | Sets the collection banner corner radius. Range: 0–60 px. Works only when the collection has a background image metafield. Set to 0 for a full-width banner with square corners. |
+
+{% hint style="info" %}
+These settings style the banner at the top of a collection page. The banner appears only when the collection has a background image metafield. See Configuration → Metafields for how to create it.
+{% endhint %}
 
 ## Search
 
@@ -268,9 +298,14 @@ The store palette is Background `#FFFFFF`, Foreground `#000000`, Color 1 `#33333
 | Setting | Description |
 | ------- | ----------- |
 | Empty state collection | Selects the collection to display. Shown before a search is entered. |
+| Search drawer links |  |
+| Categories heading | Sets the heading above the popular categories. Default: Popular categories. |
+| Popular categories | Selects the collections to show as links at the top of the search drawer (up to 8). If none are picked, placeholder shoe categories (Running, Low tops, High tops, Classic kicks, Everyday) are shown, but only the ones that exist in your store. |
+| Links heading | Sets the heading above the info links. Default: Info. |
+| Info menu | Selects the menu shown under the categories, for example About, Contact, or FAQ. Default: the footer menu. |
 | Search popover |  |
 | Product corner radius | Sets the product corner radius. Range: 0–32 px. |
-| Card corner radius | Sets the card corner radius. Range: 0–16 px. |
+| Card corner radius | Sets the card corner radius. Range: 0–32 px. |
 | Product and card title case | Sets the product and card title case. Choose from Default or Uppercase. |
 
 ## Swatches

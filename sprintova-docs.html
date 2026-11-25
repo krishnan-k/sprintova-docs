@@ -701,11 +701,14 @@
           <li><a href="#logo" data-page="logo">Logo</a></li>
           <li><a href="#marquee" data-page="marquee">Marquee</a></li>
           <li><a href="#product-hotspots" data-page="product-hotspots">Product hotspots</a></li>
+          <li><a href="#product-tab" data-page="product-tab">Product tab</a></li>
           <li><a href="#featured-collection" data-page="featured-collection">Featured collection</a></li>
           <li><a href="#related-product" data-page="related-product">Related product</a></li>
           <li><a href="#quick-order-list" data-page="quick-order-list">Quick order list</a></li>
           <li><a href="#section" data-page="section">Section</a></li>
+          <li><a href="#shop-the-look" data-page="shop-the-look">Shop the look</a></li>
           <li><a href="#slideshow" data-page="slideshow">Slideshow</a></li>
+          <li><a href="#testimonials" data-page="testimonials">Testimonials</a></li>
       </ul>
 
       <div class="group-title">Blocks</div>
@@ -762,21 +765,24 @@
           <li><b>Announcement Bar:</b> Promote offers, free shipping, and sale alerts at the top of every page.</li>
           <li><b>Multiple Banner Options:</b> Choose from Hero, Slideshow, Layered Slideshow, Carousel, and Marquee sections to showcase new releases and seasonal deals.</li>
           <li><b>Product Hotspots:</b> Tag clickable hotspots on lifestyle and on-foot images so shoppers can discover and shop the exact pair directly.</li>
+          <li><b>Shop the Look:</b> Pair a lifestyle image with a product slider. Hovering a hotspot slides to its product and clicking it opens quick view.</li>
+          <li><b>Product Tabs:</b> Show tabbed product carousels, one collection per tab, each with its own banner card and a "View all" link.</li>
+          <li><b>Testimonials:</b> Show customer quotes in a slider over a background image, with logos, pagination, and optional auto-rotation.</li>
           <li><b>Advanced Product Gallery:</b> Display product media as a grid or carousel with thumbnails, zoom, and video support, so every angle of a pair is easy to inspect, plus the option to hide unselected colorway media.</li>
           <li><b>Variant Swatches:</b> Show colorway, image, or variant-photo swatches with customizable size, borders, and corner radius.</li>
           <li><b>Sticky Add to Cart Bar:</b> Keep the buy button visible while customers scroll through sizing, fit, and product details.</li>
-          <li><b>Smart Collection Pages:</b> Choose Grid or Editorial layouts, adjustable card sizes, filters, sorting, and pagination or auto-load on scroll.</li>
-          <li><b>Quick Add:</b> Let shoppers add products to the cart straight from product cards on desktop and mobile.</li>
-          <li><b>Predictive Search:</b> Live search suggestions appear as customers type, with a customizable empty state that shows a featured collection.</li>
-          <li><b>Cart Drawer or Cart Page:</b> Choose a slide-out drawer or a full cart page, with order notes, discount codes, installments, and accelerated checkout buttons.</li>
+          <li><b>Smart Collection Pages:</b> Choose Grid or Editorial layouts, adjustable card sizes, filters, sorting, and pagination or auto-load on scroll, plus a styled collection banner (title, description, height, and corner radius).</li>
+          <li><b>Quick View and Add to Cart on Cards:</b> Let shoppers open quick view or add products to the cart straight from product cards on desktop and mobile.</li>
+          <li><b>Predictive Search:</b> Live search suggestions appear as customers type, with a customizable empty state that shows a featured collection, plus popular category and info links in the search drawer.</li>
+          <li><b>Cart Drawer or Cart Page:</b> Choose a slide-out drawer or a full cart page, with a free shipping progress bar (drawer), order notes, discount codes, installments, and accelerated checkout buttons.</li>
           <li><b>Related and Complementary Products:</b> Increase average order value by recommending matching socks, laces, shoe-care products, and similar styles.</li>
           <li><b>Quick Order List:</b> Let bulk buyers, teams, and resellers add multiple styles and sizes at once.</li>
           <li><b>Metafields Support:</b> Add extra product details such as materials, fit notes, and care instructions using custom metafields.</li>
-          <li><b>Product Card Effects:</b> Second image on hover, carousel on cards, and hover effects (Lift, Scale, or Zoom) for an interactive feel.</li>
+          <li><b>Product Card Effects:</b> Second image on hover, images that slide on hover with pagination dots, carousel on cards, hover effects (Lift, Scale, or Zoom), and an optional arrow icon on buttons.</li>
           <li><b>Sale and Sold-Out Badges:</b> Customize badge position, colors, and typography to highlight sale pairs and sold-out sizes.</li>
           <li><b>Color and Typography Control:</b> Set your color palette, four font roles (Body, Subheading, Heading, Accent), and Heading 1-6 presets to match your brand.</li>
           <li><b>Button, Input, and Icon Styling:</b> Fine-tune primary and secondary buttons, input fields, pills, popovers, and icon stroke weight.</li>
-          <li><b>Smooth Animations:</b> Page transitions, product card to product page transitions, and an add-to-cart animation.</li>
+          <li><b>Smooth Animations:</b> Page transitions, product card to product page transitions, image zoom-out on load, line-by-line heading animation, and an add-to-cart animation.</li>
           <li><b>Multi-Language and Multi-Currency Ready:</b> Country/region and language selectors with optional flags, plus currency code display on prices.</li>
           <li><b>Flexible Content Sections:</b> Media with Text, Blog Posts, Featured Product, Featured Collection, Collection List, Collection Links, Custom Liquid, Divider, and Logo sections to build any page.</li>
           <li><b>Blog and Custom Pages:</b> Built-in blog, blog post, custom page, 404, and password page templates.</li>
@@ -1001,8 +1007,10 @@
           <tr><th>Setting</th><th>Description</th></tr>
           <tr><td>Page transition</td><td>Enables or disables page transition.</td></tr>
           <tr><td>Product card to product page transition</td><td>Enables or disables product card to product page transition.</td></tr>
-          <tr><td>Add to cart</td><td>Enables or disables add to cart.</td></tr>
-          <tr><td>Card hover effect</td><td>Sets the card hover effect. Choose from None, Lift, Scale, or Zoom.</td></tr>
+          <tr><td>Image zoom-out on load</td><td>Enables or disables the zoom-out effect. Section background images, product card images, and collection card images start slightly zoomed in and ease out when they load and scroll into view.</td></tr>
+          <tr><td>Add to cart</td><td>Enables or disables the add-to-cart animation.</td></tr>
+          <tr><td>Heading animation</td><td>Enables or disables heading animation. Headings animate in line by line (rise and fade) as they scroll into view.</td></tr>
+          <tr><td>Card hover effect</td><td>Sets the card hover effect. Choose from None, Lift, Scale, or Zoom. Applies to product and collection cards.</td></tr>
         </table>
         <h2>Badges</h2>
         <ol>
@@ -1072,6 +1080,9 @@
           <tr><td>Product title case</td><td>Sets the product title case. Choose from Default or Uppercase.</td></tr>
           <tr><td>Price font</td><td>Sets the price font. Choose from Body, Subheading, Heading, or Accent.</td></tr>
           <tr><td>"Add to cart" auto-opens drawer</td><td>Enables or disables "add to cart" auto-opens drawer.</td></tr>
+          <tr class="sub"><td colspan="2">Free shipping progress bar</td></tr>
+          <tr><td>Show free shipping progress bar</td><td>Shows a progress bar at the top of the cart drawer that tells shoppers how much more they need to spend to get free shipping. Available when Type is Drawer.</td></tr>
+          <tr><td>Free shipping minimum</td><td>Sets the order value, in the currency shown to customers, needed for free shipping. Only items that require shipping are counted. Available when Type is Drawer and the progress bar is on.</td></tr>
           <tr><td>Allow note to seller</td><td>Turn on to allow note to seller.</td></tr>
           <tr><td>Open note to seller by default</td><td>Turn on to open note to seller by default.</td></tr>
           <tr><td>Allow discounts in cart</td><td>Turn on to allow discounts in cart.</td></tr>
@@ -1084,6 +1095,7 @@
           <tr><td>Border opacity</td><td>Sets the border opacity. Range: 0–100%.</td></tr>
           <tr><td>Corner radius</td><td>Sets the corner radius. Range: 0–100 px.</td></tr>
         </table>
+        <div class="hint">The bar updates on every cart change. Once the minimum is reached it switches to a "free shipping unlocked" message with a short celebration. It is hidden when the cart is empty, when the minimum is 0, or when the cart has no items that need shipping. This bar is only a visual guide: set the actual free shipping rate in Shopify Admin → Settings → Shipping and delivery.</div>
         <h2>Drawers</h2>
         <ol>
           <li>Go to Shopify Admin → Online Store → Themes.</li>
@@ -1183,13 +1195,37 @@
         </figure>
         <table>
           <tr><th>Setting</th><th>Description</th></tr>
-          <tr><td>Quick add</td><td>Enables or disables quick add.</td></tr>
-          <tr><td>Mobile quick add</td><td>Enables or disables mobile quick add.</td></tr>
-          <tr><td>Background</td><td>Sets the background color.</td></tr>
-          <tr><td>Text</td><td>Sets the text color.</td></tr>
+          <tr><td>Add to cart</td><td>Shows or hides the Add to cart button on product cards. Products with a single variant show it on desktop and mobile. Products with several variants show an add icon on mobile only (it adds the selected or first available variant) and keep the Choose options button on desktop. This setting works independently of Quick view.</td></tr>
+          <tr><td>Quick view</td><td>Enables or disables quick view on product cards.</td></tr>
+          <tr><td>Mobile quick add</td><td>Enables or disables mobile quick add. Available when Quick view is on.</td></tr>
+          <tr><td>Background</td><td>Sets the quick view background color. Available when Quick view is on.</td></tr>
+          <tr><td>Text</td><td>Sets the quick view text color. Available when Quick view is on.</td></tr>
+          <tr class="sub"><td colspan="2">Media</td></tr>
           <tr><td>Show second image on hover</td><td>Turn on to show second image on hover.</td></tr>
           <tr><td>Show carousel</td><td>Turn on to show carousel.</td></tr>
+          <tr><td>Slide images on hover</td><td>On desktop, the product card slides to the next image and shows pagination dots when hovered. Replaces Show second image on hover.</td></tr>
+          <tr class="sub"><td colspan="2">Button arrow</td></tr>
+          <tr><td>Show arrow icon on buttons</td><td>Adds a small arrow to theme buttons and "View all" links, including the Product tab carousel.</td></tr>
         </table>
+        <h2>Collection</h2>
+        <ol>
+          <li>Go to Shopify Admin → Online Store → Themes.</li>
+          <li>Click Customize on your active theme.</li>
+          <li>Click <b>Theme settings →</b> <b>Collection</b>.</li>
+        </ol>
+        <figure>
+          <img class="shot" src="./images/collection-settings.png" alt="Collection settings">
+          <figcaption>Collection settings</figcaption>
+        </figure>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr><td>Collection title color</td><td>Sets the collection title color. Works only when the collection has a background image metafield. Otherwise the default collection color is used.</td></tr>
+          <tr><td>Collection description color</td><td>Sets the collection description color. Works only when the collection has a background image metafield.</td></tr>
+          <tr><td>Collection font size</td><td>Sets the collection title font size. Range: 20–80 px.</td></tr>
+          <tr><td>Collection banner height</td><td>Sets the collection banner height. Choose from Auto, Small, Medium, or Large. Works only when the collection has a background image metafield.</td></tr>
+          <tr><td>Collection banner corner radius</td><td>Sets the collection banner corner radius. Range: 0–60 px. Works only when the collection has a background image metafield. Set to 0 for a full-width banner with square corners.</td></tr>
+        </table>
+        <div class="hint">These settings style the banner at the top of a collection page. The banner appears only when the collection has a background image metafield. See Configuration → Metafields for how to create it.</div>
         <h2>Search</h2>
         <ol>
           <li>Go to Shopify Admin → Online Store → Themes.</li>
@@ -1203,6 +1239,12 @@
         <table>
           <tr><th>Setting</th><th>Description</th></tr>
           <tr><td>Empty state collection</td><td>Selects the collection to display. Shown before a search is entered.</td></tr>
+          <tr class="sub"><td colspan="2">Search drawer links</td></tr>
+          <tr><td>Categories heading</td><td>Sets the heading above the popular categories. Default: Popular categories.</td></tr>
+          <tr><td>Popular categories</td><td>Selects the collections to show as links at the top of the search drawer (up to 8). If none are picked, placeholder shoe categories (Running, Low tops, High tops, Classic kicks, Everyday) are shown, but only the ones that exist in your store.</td></tr>
+          <tr><td>Links heading</td><td>Sets the heading above the info links. Default: Info.</td></tr>
+          <tr><td>Info menu</td><td>Selects the menu shown under the categories, for example About, Contact, or FAQ. Default: the footer menu.</td></tr>
+          <tr class="sub"><td colspan="2">Search popover</td></tr>
           <tr><td>Product corner radius</td><td>Sets the product corner radius. Range: 0–32 px.</td></tr>
           <tr><td>Card corner radius</td><td>Sets the card corner radius. Range: 0–16 px.</td></tr>
           <tr><td>Product and card title case</td><td>Sets the product and card title case. Choose from Default or Uppercase.</td></tr>
@@ -2415,6 +2457,214 @@
           <tr class="sub"><td colspan="2">Padding</td></tr>
           <tr><td>Top</td><td>Sets the top padding. Range: 0–100 px.</td></tr>
           <tr><td>Bottom</td><td>Sets the bottom padding. Range: 0–100 px.</td></tr>
+        </table>
+      </section>
+
+      <!-- ===== PAGE: Product tab ============================================ -->
+      <section class="page" id="page-product-tab" data-title="Product tab" hidden>
+        <h1>Product tab</h1>
+        <p class="lead">Displays products in tabs. Each tab shows one collection, with an optional banner card in front of the products, in a scrollable carousel.</p>
+        <h2>How to access</h2>
+        <ol>
+          <li><b>Go to</b> Shopify Admin → Online Store → Themes.</li>
+          <li><b>Click</b> Customize on your active theme.</li>
+          <li>Open a page such as <b>Home page</b> from the page picker.</li>
+          <li>Click <b>Add section</b> and choose <b>Product tab</b>, or select an existing Product tab section.</li>
+        </ol>
+        <figure>
+          <img class="shot" src="images/product-tabs-carousel.png" alt="Product tab">
+          <figcaption>Product tab</figcaption>
+        </figure>
+        <h3>Section Settings</h3>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr class="sub"><td colspan="2">Products</td></tr>
+          <tr><td>Products per tab</td><td>Sets how many products each tab shows. Range: 2–16.</td></tr>
+          <tr><td>Cards per row (desktop)</td><td>Sets how many cards fit in a row on desktop. Range: 2–6. The banner counts as one card.</td></tr>
+          <tr><td>Cards per row (mobile)</td><td>Sets the card size on mobile. Choose from 1 card, next one peeks or 2 cards.</td></tr>
+          <tr><td>Gap between cards</td><td>Sets the gap between cards. Range: 0–48 px.</td></tr>
+          <tr class="sub"><td colspan="2">Banner card</td></tr>
+          <tr><td>Show banner card</td><td>Shows or hides the banner card before the products.</td></tr>
+          <tr><td>Corner radius</td><td>Sets the banner corner radius. Range: 0–32 px.</td></tr>
+          <tr><td>Image darkening</td><td>Sets how much the banner image is darkened so the text stays readable. Range: 0–80%.</td></tr>
+          <tr><td>Text color</td><td>Sets the banner text color.</td></tr>
+          <tr class="sub"><td colspan="2">Product tab button</td></tr>
+          <tr><td>Active tab</td><td>Sets the background color of the selected tab.</td></tr>
+          <tr><td>Text</td><td>Sets the tab text color.</td></tr>
+          <tr><td>Border</td><td>Sets the tab border color.</td></tr>
+          <tr class="sub"><td colspan="2">Banner heading typography</td></tr>
+          <tr><td>Preset</td><td>Sets the banner heading typography preset. Choose from Heading 1, Heading 2, Heading 3, Heading 4, Heading 5, Heading 6, or Custom. Edit presets in theme settings.</td></tr>
+          <tr><td>Font</td><td>Sets the font. Choose from Body, Subheading, Heading, or Accent. Available when Preset is Custom.</td></tr>
+          <tr><td>Size</td><td>Sets the size. Choose from Default, 12px, 14px, 16px, 18px, 20px, 24px, 32px, 40px, 48px, 56px, or 72px. Available when Preset is Custom.</td></tr>
+          <tr><td>Line height</td><td>Sets the line height. Choose from Tight, Normal, or Loose. Available when Preset is Custom.</td></tr>
+          <tr><td>Letter spacing</td><td>Sets the letter spacing. Choose from Tight, Normal, or Loose. Available when Preset is Custom.</td></tr>
+          <tr><td>Case</td><td>Sets the case. Choose from Default or Uppercase. Available when Preset is Custom.</td></tr>
+          <tr><td>Wrap</td><td>Sets the text wrap. Choose from Pretty, Balance, or No wrap. Available when Preset is Custom.</td></tr>
+          <tr class="sub"><td colspan="2">Carousel navigation</td></tr>
+          <tr><td>Icon</td><td>Sets the navigation icon. Choose from Arrows, Chevrons, Large arrows, Large chevrons, or None.</td></tr>
+          <tr><td>Icon background</td><td>Sets the icon background. Choose from None, Circle, or Square. Not shown when Icon is None.</td></tr>
+          <tr class="sub"><td colspan="2">Navigation</td></tr>
+          <tr><td>Show scroll progress bar</td><td>Shows or hides the scroll progress bar under the carousel.</td></tr>
+          <tr><td>Show "View all" link</td><td>Shows or hides the "View all" link next to the tabs. The link always points to the collection of the selected tab.</td></tr>
+          <tr><td>"View all" label</td><td>Sets the "View all" link label.</td></tr>
+          <tr class="sub"><td colspan="2">Section layout</td></tr>
+          <tr><td>Width</td><td>Sets the width. Choose from Page or Full.</td></tr>
+          <tr><td>Page padding</td><td>Sets the side padding. Range: 0–100 px. Available when Width is Full.</td></tr>
+          <tr><td>Gap</td><td>Sets the gap between the tabs and the products. Range: 0–100 px.</td></tr>
+          <tr><td>Background color</td><td>Sets the background color.</td></tr>
+          <tr class="sub"><td colspan="2">Padding</td></tr>
+          <tr><td>Top</td><td>Sets the top padding. Range: 0–100 px.</td></tr>
+          <tr><td>Bottom</td><td>Sets the bottom padding. Range: 0–100 px.</td></tr>
+        </table>
+        <div class="hint">Each tab shows a banner card followed by the products of its collection. The product cards use the theme product card, so Quick view, Add to cart, swatches, and badges behave the same as in other product lists. You can add up to 6 tabs.</div>
+        <h3>Blocks</h3>
+        <p>Add blocks to this section in the theme editor. Each block is a separate item you can add, remove, and reorder.</p>
+        <h4>Collection</h4>
+        <p>Adds a tab that shows the products of one collection, with an optional banner card.</p>
+        <figure>
+          <img class="shot" src="images/product-tab-block.png" alt="Collection block">
+          <figcaption>Collection block</figcaption>
+        </figure>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr><td>Tab label</td><td>Sets the text shown on the tab button.</td></tr>
+          <tr><td>Collection</td><td>Selects the collection whose products this tab shows.</td></tr>
+          <tr class="sub"><td colspan="2">Banner card</td></tr>
+          <tr><td>Banner image</td><td>Selects the banner image. Shown as the first card in the tab.</td></tr>
+          <tr><td>Banner heading</td><td>Sets the banner heading. Leave empty to use the tab label.</td></tr>
+          <tr><td>Banner text</td><td>Sets the banner text.</td></tr>
+          <tr><td>Banner button label</td><td>Sets the banner button label.</td></tr>
+          <tr><td>Banner button link</td><td>Sets the banner button link. Leave empty to link to the tab's collection.</td></tr>
+        </table>
+        <div class="hint">The banner card is shown only when <b>Show banner card</b> is on in the section settings.</div>
+      </section>
+
+      <!-- ===== PAGE: Shop the look ============================================ -->
+      <section class="page" id="page-shop-the-look" data-title="Shop the look" hidden>
+        <h1>Shop the look</h1>
+        <p class="lead">Displays a lifestyle image with hotspots and a product slider beside it, so shoppers can discover and shop every item in the look.</p>
+        <h2>How to access</h2>
+        <ol>
+          <li><b>Go to</b> Shopify Admin → Online Store → Themes.</li>
+          <li><b>Click</b> Customize on your active theme.</li>
+          <li>Open a page such as <b>Home page</b> from the page picker.</li>
+          <li>Click <b>Add section</b> and choose <b>Shop the look</b>, or select an existing Shop the look section.</li>
+        </ol>
+        <figure>
+          <img class="shot" src="images/shop-the-look.png" alt="Shop the look">
+          <figcaption>Shop the look</figcaption>
+        </figure>
+        <h3>Section Settings</h3>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr class="sub"><td colspan="2">Content</td></tr>
+          <tr><td>Heading</td><td>Sets the heading shown beside the image. Default: Shop the look.</td></tr>
+          <tr><td>Image</td><td>Selects the image the hotspots sit on.</td></tr>
+          <tr><td>Image height</td><td>Sets the image height. Choose from Match image, Landscape (16:9), Landscape (16:10), Standard (4:3), Square (1:1), Portrait (4:5), or Portrait (3:4).</td></tr>
+          <tr class="sub"><td colspan="2">Section layout</td></tr>
+          <tr><td>Width</td><td>Sets the width. Choose from Page or Full.</td></tr>
+          <tr><td>Gap between image and slider</td><td>Sets the gap between the image and the product slider. Range: 8–80 px.</td></tr>
+          <tr><td>Corner radius</td><td>Sets the corner radius. Range: 0–40 px.</td></tr>
+          <tr class="sub"><td colspan="2">Colors</td></tr>
+          <tr><td>Accent (active hotspot)</td><td>Sets the color of the hotspot that is currently selected.</td></tr>
+          <tr><td>Hotspot color</td><td>Sets the hotspot color. Supports transparency.</td></tr>
+          <tr><td>Inner color</td><td>Sets the color of the dot inside the hotspot.</td></tr>
+          <tr><td>Background color</td><td>Sets the background color.</td></tr>
+          <tr class="sub"><td colspan="2">Dots</td></tr>
+          <tr><td>Dot outside</td><td>Sets the outer size of the hotspot. Range: 35–80 px.</td></tr>
+          <tr><td>Dot inside</td><td>Sets the inner size of the hotspot. Range: 15–60 px.</td></tr>
+          <tr class="sub"><td colspan="2">Padding</td></tr>
+          <tr><td>Top</td><td>Sets the top padding. Range: 0–100 px.</td></tr>
+          <tr><td>Bottom</td><td>Sets the bottom padding. Range: 0–100 px.</td></tr>
+        </table>
+        <div class="hint">On desktop the image sits on the left and the product slider on the right. Hovering a hotspot slides to its product card, and clicking a hotspot opens quick view for that product. On mobile the layout stacks: heading, image, product card, and pagination dots. You can add up to 8 hotspot points.</div>
+        <h3>Blocks</h3>
+        <p>Add blocks to this section in the theme editor. Each block is a separate item you can add, remove, and reorder.</p>
+        <h4>Hotspot point</h4>
+        <p>Adds a hotspot on the image and a product card in the slider.</p>
+        <figure>
+          <img class="shot" src="images/shop-the-look-point.png" alt="Hotspot point block">
+          <figcaption>Hotspot point block</figcaption>
+        </figure>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr><td>Product</td><td>Selects the product shown in the slider card for this hotspot.</td></tr>
+          <tr><td>Horizontal position</td><td>Sets the horizontal position of the hotspot on the image. Range: 0–100%.</td></tr>
+          <tr><td>Vertical position</td><td>Sets the vertical position of the hotspot on the image. Range: 0–100%.</td></tr>
+        </table>
+        <p>Each hotspot point holds the product card that appears in the slider. Inside the point you can add, remove, and reorder these blocks: <b>Product image</b>, <b>Product title</b>, <b>Price</b>, <b>Swatches</b>, <b>Review stars</b>, <b>Text</b>, and <b>Custom liquid</b>. See <b>Theme blocks</b> for their settings.</p>
+      </section>
+
+      <!-- ===== PAGE: Testimonials ============================================ -->
+      <section class="page" id="page-testimonials" data-title="Testimonials" hidden>
+        <h1>Testimonials</h1>
+        <p class="lead">Displays customer quotes in a slider over a background image, with optional logo, author, and auto-rotation.</p>
+        <h2>How to access</h2>
+        <ol>
+          <li><b>Go to</b> Shopify Admin → Online Store → Themes.</li>
+          <li><b>Click</b> Customize on your active theme.</li>
+          <li>Open a page such as <b>Home page</b> from the page picker.</li>
+          <li>Click <b>Add section</b> and choose <b>Testimonials</b>, or select an existing Testimonials section.</li>
+        </ol>
+        <figure>
+          <img class="shot" src="images/testimonials.png" alt="Testimonials">
+          <figcaption>Testimonials</figcaption>
+        </figure>
+        <h3>Section Settings</h3>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr class="sub"><td colspan="2">Layout</td></tr>
+          <tr><td>Width</td><td>Sets the width. Choose from Page or Full.</td></tr>
+          <tr><td>Aspect ratio</td><td>Sets the aspect ratio. Choose from Auto, Landscape, or Portrait.</td></tr>
+          <tr><td>Media height</td><td>Sets the media height. Choose from Auto, Small, Medium, or Large. Available when Aspect ratio is Auto.</td></tr>
+          <tr><td>Content width</td><td>Sets the maximum width of the quote. Range: 400–1200 px.</td></tr>
+          <tr><td>Alignment</td><td>Sets the text alignment. Choose from Left, Center, or Right.</td></tr>
+          <tr><td>Corner radius</td><td>Sets the corner radius. Range: 0–50 px.</td></tr>
+          <tr class="sub"><td colspan="2">Quote typography</td></tr>
+          <tr><td>Preset</td><td>Sets the quote typography preset. Choose from Default, Paragraph, Heading 1, Heading 2, Heading 3, Heading 4, Heading 5, Heading 6, or Custom. Edit presets in theme settings.</td></tr>
+          <tr><td>Font</td><td>Sets the font. Choose from Body, Subheading, Heading, or Accent. Available when Preset is Custom.</td></tr>
+          <tr><td>Size</td><td>Sets the size. Choose from Default, 10px up to 184px. Available when Preset is Custom.</td></tr>
+          <tr><td>Line height</td><td>Sets the line height. Choose from Tight, Normal, or Loose. Available when Preset is Custom.</td></tr>
+          <tr><td>Letter spacing</td><td>Sets the letter spacing. Choose from Tight, Normal, or Loose. Available when Preset is Custom.</td></tr>
+          <tr><td>Case</td><td>Sets the case. Choose from Default or Uppercase. Available when Preset is Custom.</td></tr>
+          <tr><td>Wrap</td><td>Sets the text wrap. Choose from Pretty, Balance, or None. Available when Preset is Custom.</td></tr>
+          <tr><td>Show quote icon</td><td>Shows or hides the quote icon above the quote.</td></tr>
+          <tr><td>Quote icon size</td><td>Sets the quote icon size. Range: 24–120 px. Available when Show quote icon is on.</td></tr>
+          <tr class="sub"><td colspan="2">Author typography</td></tr>
+          <tr><td>Preset</td><td>Sets the author typography preset. Choose from Paragraph, Heading 4, Heading 5, or Heading 6. Edit presets in theme settings.</td></tr>
+          <tr><td>Logo size</td><td>Sets the logo size. Choose from Auto, Small, Medium, or Large.</td></tr>
+          <tr class="sub"><td colspan="2">Appearance</td></tr>
+          <tr><td>Image</td><td>Selects the background image.</td></tr>
+          <tr><td>Text color</td><td>Sets the text color.</td></tr>
+          <tr><td>Media overlay</td><td>Enables or disables the media overlay.</td></tr>
+          <tr><td>Overlay color</td><td>Sets the overlay color. Supports transparency. Available when Media overlay is on.</td></tr>
+          <tr><td>Overlay style</td><td>Sets the overlay style. Choose from Solid or Gradient. Available when Media overlay is on.</td></tr>
+          <tr><td>Gradient direction</td><td>Sets the gradient direction. Choose from Up or Down. Available when Overlay style is Gradient.</td></tr>
+          <tr class="sub"><td colspan="2">Navigation</td></tr>
+          <tr><td>Pagination</td><td>Sets the pagination style. Choose from None, Dots, or Counter.</td></tr>
+          <tr><td>Pagination color</td><td>Sets the pagination color. Available when Pagination is Dots or Counter.</td></tr>
+          <tr><td>Icons</td><td>Sets the navigation icons. Choose from None, Arrows, Chevrons, Large arrows, or Large chevrons.</td></tr>
+          <tr><td>Auto-rotate slides</td><td>Turns on automatic rotation of the testimonials.</td></tr>
+          <tr><td>Speed</td><td>Sets the time each testimonial shows. Range: 3–10 s. Available when Auto-rotate slides is on.</td></tr>
+          <tr class="sub"><td colspan="2">Padding</td></tr>
+          <tr><td>Top</td><td>Sets the top padding. Range: 0–100 px.</td></tr>
+          <tr><td>Bottom</td><td>Sets the bottom padding. Range: 0–100 px.</td></tr>
+        </table>
+        <div class="hint">Add one **Testimonial** block per quote. Visitors move between quotes with the pagination dots or counter, and with the navigation icons if you turn them on.</div>
+        <h3>Blocks</h3>
+        <p>Add blocks to this section in the theme editor. Each block is a separate item you can add, remove, and reorder.</p>
+        <h4>Testimonial</h4>
+        <p>Adds a quote with an optional logo and author.</p>
+        <figure>
+          <img class="shot" src="images/testimonial-block.png" alt="Testimonial block">
+          <figcaption>Testimonial block</figcaption>
+        </figure>
+        <table>
+          <tr><th>Setting</th><th>Description</th></tr>
+          <tr><td>Quote</td><td>Sets the testimonial text. Rich text.</td></tr>
+          <tr><td>Logo</td><td>Selects an optional logo shown under the quote. Use a transparent PNG or SVG for best results.</td></tr>
+          <tr><td>Author name</td><td>Sets the author name.</td></tr>
+          <tr><td>Role or publication</td><td>Sets the author role or publication. Shown after the name, for example "Arjun M, Verified Buyer".</td></tr>
         </table>
       </section>
 

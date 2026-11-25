@@ -35,11 +35,14 @@
 * [Marquee](sections/marquee.md)
 * [Media with text](sections/media-with-content.md)
 * [Product hotspots](sections/product-hotspots.md)
+* [Product tab](sections/product-tabs-carousel.md)
 * [Featured collection](sections/product-list.md)
 * [Related product](sections/product-recommendations.md)
 * [Quick order list](sections/quick-order-list.md)
 * [Section](sections/section.md)
+* [Shop the look](sections/hotspot-slider.md)
 * [Slideshow](sections/slideshow.md)
+* [Testimonials](sections/testimonials.md)
 
 ## Blocks
 

@@ -19,3 +19,4 @@ Show products that pair well with the one a customer is viewing, such as a pair 
 4. Set **Type** to **Complementary**.
 
 Complementary recommendations only appear for products where you have set them in Search & Discovery.
+

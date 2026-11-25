@@ -9,21 +9,24 @@
 * **Announcement Bar:** Promote offers, free shipping, and sale alerts at the top of every page.
 * **Multiple Banner Options:** Choose from Hero, Slideshow, Layered Slideshow, Carousel, and Marquee sections to showcase new releases and seasonal deals.
 * **Product Hotspots:** Tag clickable hotspots on lifestyle and on-foot images so shoppers can discover and shop the exact pair directly.
+* **Shop the Look:** Pair a lifestyle image with a product slider. Hovering a hotspot slides to its product and clicking it opens quick view.
+* **Product Tabs:** Show tabbed product carousels, one collection per tab, each with its own banner card and a "View all" link.
+* **Testimonials:** Show customer quotes in a slider over a background image, with logos, pagination, and optional auto-rotation.
 * **Advanced Product Gallery:** Display product media as a grid or carousel with thumbnails, zoom, and video support, so every angle of a pair is easy to inspect, plus the option to hide unselected colorway media.
 * **Variant Swatches:** Show colorway, image, or variant-photo swatches with customizable size, borders, and corner radius.
 * **Sticky Add to Cart Bar:** Keep the buy button visible while customers scroll through sizing, fit, and product details.
-* **Smart Collection Pages:** Choose Grid or Editorial layouts, adjustable card sizes, filters, sorting, and pagination or auto-load on scroll.
-* **Quick Add:** Let shoppers add products to the cart straight from product cards on desktop and mobile.
-* **Predictive Search:** Live search suggestions appear as customers type, with a customizable empty state that shows a featured collection.
-* **Cart Drawer or Cart Page:** Choose a slide-out drawer or a full cart page, with order notes, discount codes, installments, and accelerated checkout buttons.
+* **Smart Collection Pages:** Choose Grid or Editorial layouts, adjustable card sizes, filters, sorting, and pagination or auto-load on scroll, plus a styled collection banner (title, description, height, and corner radius).
+* **Quick View and Add to Cart on Cards:** Let shoppers open quick view or add products to the cart straight from product cards on desktop and mobile.
+* **Predictive Search:** Live search suggestions appear as customers type, with a customizable empty state that shows a featured collection, plus popular category and info links in the search drawer.
+* **Cart Drawer or Cart Page:** Choose a slide-out drawer or a full cart page, with a free shipping progress bar (drawer), order notes, discount codes, installments, and accelerated checkout buttons.
 * **Related and Complementary Products:** Increase average order value by recommending matching socks, laces, shoe-care products, and similar styles.
 * **Quick Order List:** Let bulk buyers, teams, and resellers add multiple styles and sizes at once.
 * **Metafields Support:** Add extra product details such as materials, fit notes, and care instructions using custom metafields.
-* **Product Card Effects:** Second image on hover, carousel on cards, and hover effects (Lift, Scale, or Zoom) for an interactive feel.
+* **Product Card Effects:** Second image on hover, images that slide on hover with pagination dots, carousel on cards, hover effects (Lift, Scale, or Zoom), and an optional arrow icon on buttons.
 * **Sale and Sold-Out Badges:** Customize badge position, colors, and typography to highlight sale pairs and sold-out sizes.
 * **Color and Typography Control:** Set your color palette, four font roles (Body, Subheading, Heading, Accent), and Heading 1-6 presets to match your brand.
 * **Button, Input, and Icon Styling:** Fine-tune primary and secondary buttons, input fields, pills, popovers, and icon stroke weight.
-* **Smooth Animations:** Page transitions, product card to product page transitions, and an add-to-cart animation.
+* **Smooth Animations:** Page transitions, product card to product page transitions, image zoom-out on load, line-by-line heading animation, and an add-to-cart animation.
 * **Multi-Language and Multi-Currency Ready:** Country/region and language selectors with optional flags, plus currency code display on prices.
 * **Flexible Content Sections:** Media with Text, Blog Posts, Featured Product, Featured Collection, Collection List, Collection Links, Custom Liquid, Divider, and Logo sections to build any page.
 * **Blog and Custom Pages:** Built-in blog, blog post, custom page, 404, and password page templates.
