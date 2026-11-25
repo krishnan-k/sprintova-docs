@@ -8,7 +8,6 @@
 * **Mega Menu with Visuals:** Show collection images, featured products, featured collections, or image cards for chosen collections (with an "All collections" card) inside the submenu to guide shoppers straight to your best sneakers and newest styles.
 * **Announcement Bar:** Promote offers, free shipping, and sale alerts at the top of every page.
 * **Multiple Banner Options:** Choose from Hero, Slideshow, Layered Slideshow, Carousel, and Marquee sections to showcase new releases and seasonal deals.
-* **Product Hotspots:** Tag clickable hotspots on lifestyle and on-foot images so shoppers can discover and shop the exact pair directly.
 * **Shop the Look:** Pair a lifestyle image with a product slider. Hovering a hotspot slides to its product and clicking it opens quick view.
 * **Product Tabs:** Show tabbed product carousels, one collection per tab, each with its own banner card and a "View all" link.
 * **Testimonials:** Show customer quotes in a slider over a background image, with logos, pagination, and optional auto-rotation.

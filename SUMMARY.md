@@ -34,7 +34,6 @@
 * [Logo](sections/logo.md)
 * [Marquee](sections/marquee.md)
 * [Media with text](sections/media-with-content.md)
-* [Product hotspots](sections/product-hotspots.md)
 * [Product tab](sections/product-tabs-carousel.md)
 * [Featured collection](sections/product-list.md)
 * [Related product](sections/product-recommendations.md)
